@@ -9,6 +9,8 @@ import WallLayoutRoute from "../Wall/WallLayout.js";
 /** Components **/  
 import SignIn from '../../Features/SignUpIn/SignIn.js';  
 import SignUp from '../../Features/SignUpIn/SignUp.js';  
+import ForgotPassword from '../../Features/SignUpIn/ForgotPassword.js';  
+
 import Blogs from '../../Features/Blogs/Blogs.js';  
 import PersonalInfo from '../../Features/PersonalInfo/PersonalInfo.js';  
   
@@ -25,6 +27,7 @@ class LayoutCall extends Component {
           </Route>  
           <SignUpInLayoutRoute path="/signin" component={SignIn} />  
           <SignUpInLayoutRoute path="/signup" component={SignUp} />  
+          <SignUpInLayoutRoute path="/forgotpassword" component={ForgotPassword} />  
 
           <PersonalProfileLayoutRoute path="/personal" component={PersonalInfo} />  
           

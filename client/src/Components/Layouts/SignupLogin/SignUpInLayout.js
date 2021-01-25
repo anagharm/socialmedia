@@ -4,7 +4,7 @@ import SignUpInHeader from './SignUpInHeader';
 import SignUpInFooter from './SignUpInFooter';
   
 const SignUpInLayout = ({ children }) => (                         
-    <div>
+    <div className="container-fluid p-0 border">
     	<SignUpInHeader />
 			{children}
 		<SignUpInFooter />	  
